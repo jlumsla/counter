@@ -1,0 +1,2334 @@
+openapi: 3.0.1
+components:
+  schemas:
+    Postcard:
+      properties:
+        output:
+          type: object
+          properties:
+            value:
+              type: integer
+              format: int32
+              example: 0
+            UC0:
+              type: object
+              properties:
+                value:
+                  type: integer
+                  format: int32
+                  example: 0
+                COLORTYPE:
+                  type: object
+                  properties:
+                    monochrome:
+                      type: object
+                      properties:
+                        value:
+                          type: integer
+                          format: int32
+                          example: 0
+                    color:
+                      type: object
+                      properties:
+                        value:
+                          type: integer
+                          format: int32
+                          example: 0
+                        fullcolor:
+                          type: object
+                          properties:
+                            value:
+                              type: integer
+                              format: int32
+                              example: 0
+                        threecolor:
+                          type: object
+                          properties:
+                            value:
+                              type: integer
+                              format: int32
+                              example: 0
+                        twocolor:
+                          type: object
+                          properties:
+                            value:
+                              type: integer
+                              format: int32
+                              example: 0
+                        singlecolor:
+                          type: object
+                          properties:
+                            value:
+                              type: integer
+                              format: int32
+                              example: 0
+            JOBTYPE:
+              type: object
+              properties:
+                prints:
+                  type: object
+                  properties:
+                    value:
+                      type: integer
+                      format: int32
+                      example: 0
+                    UC0:
+                      type: object
+                      properties:
+                        value:
+                          type: integer
+                          format: int32
+                          example: 0
+                        COLORTYPE:
+                          type: object
+                          properties:
+                            monochrome:
+                              type: object
+                              properties:
+                                description:
+                                  type: string
+                                  example: ""
+                                value:
+                                  type: integer
+                                  format: int32
+                                  example: -1
+                            color:
+                              type: object
+                              properties:
+                                value:
+                                  type: integer
+                                  format: int32
+                                  example: 0
+                                fullcolor:
+                                  type: object
+                                  properties:
+                                    description:
+                                      type: string
+                                      example: ""
+                                    value:
+                                      type: integer
+                                      format: int32
+                                      example: -1
+                                threecolor:
+                                  type: object
+                                  properties:
+                                    description:
+                                      type: string
+                                      example: ""
+                                    value:
+                                      type: integer
+                                      format: int32
+                                      example: -1
+                                twocolor:
+                                  type: object
+                                  properties:
+                                    description:
+                                      type: string
+                                      example: ""
+                                    value:
+                                      type: integer
+                                      format: int32
+                                      example: -1
+                                singlecolor:
+                                  type: object
+                                  properties:
+                                    description:
+                                      type: string
+                                      example: ""
+                                    value:
+                                      type: integer
+                                      format: int32
+                                      example: -1
+                    UC2:
+                      type: object
+                      properties:
+                        value:
+                          type: integer
+                          format: int32
+                          example: 0
+                        COLORTYPE:
+                          type: object
+                          properties:
+                            monochrome:
+                              type: object
+                              properties:
+                                description:
+                                  type: string
+                                  example: ""
+                                value:
+                                  type: integer
+                                  format: int32
+                                  example: -1
+                            color:
+                              type: object
+                              properties:
+                                value:
+                                  type: integer
+                                  format: int32
+                                  example: 0
+                                fullcolor:
+                                  type: object
+                                  properties:
+                                    description:
+                                      type: string
+                                      example: ""
+                                    value:
+                                      type: integer
+                                      format: int32
+                                      example: -1
+                                threecolor:
+                                  type: object
+                                  properties:
+                                    description:
+                                      type: string
+                                      example: ""
+                                    value:
+                                      type: integer
+                                      format: int32
+                                      example: -1
+                                twocolor:
+                                  type: object
+                                  properties:
+                                    description:
+                                      type: string
+                                      example: ""
+                                    value:
+                                      type: integer
+                                      format: int32
+                                      example: -1
+                                singlecolor:
+                                  type: object
+                                  properties:
+                                    description:
+                                      type: string
+                                      example: ""
+                                    value:
+                                      type: integer
+                                      format: int32
+                                      example: -1
+                    UC3:
+                      type: object
+                      properties:
+                        value:
+                          type: integer
+                          format: int32
+                          example: 0
+                        COLORTYPE:
+                          type: object
+                          properties:
+                            monochrome:
+                              type: object
+                              properties:
+                                description:
+                                  type: string
+                                  example: ""
+                                value:
+                                  type: integer
+                                  format: int32
+                                  example: -1
+                            color:
+                              type: object
+                              properties:
+                                value:
+                                  type: integer
+                                  format: int32
+                                  example: 0
+                                fullcolor:
+                                  type: object
+                                  properties:
+                                    description:
+                                      type: string
+                                      example: ""
+                                    value:
+                                      type: integer
+                                      format: int32
+                                      example: -1
+                                threecolor:
+                                  type: object
+                                  properties:
+                                    description:
+                                      type: string
+                                      example: ""
+                                    value:
+                                      type: integer
+                                      format: int32
+                                      example: -1
+                                twocolor:
+                                  type: object
+                                  properties:
+                                    description:
+                                      type: string
+                                      example: ""
+                                    value:
+                                      type: integer
+                                      format: int32
+                                      example: -1
+                                singlecolor:
+                                  type: object
+                                  properties:
+                                    description:
+                                      type: string
+                                      example: ""
+                                    value:
+                                      type: integer
+                                      format: int32
+                                      example: -1
+                    COLORTYPE:
+                      type: object
+                      properties:
+                        monochrome:
+                          type: object
+                          properties:
+                            value:
+                              type: integer
+                              format: int32
+                              example: -1
+                        color:
+                          type: object
+                          properties:
+                            value:
+                              type: integer
+                              format: int32
+                              example: 0
+                            fullcolor:
+                              type: object
+                              properties:
+                                value:
+                                  type: integer
+                                  format: int32
+                                  example: -1
+                            threecolor:
+                              type: object
+                              properties:
+                                value:
+                                  type: integer
+                                  format: int32
+                                  example: -1
+                            twocolor:
+                              type: object
+                              properties:
+                                value:
+                                  type: integer
+                                  format: int32
+                                  example: -1
+                            singlecolor:
+                              type: object
+                              properties:
+                                value:
+                                  type: integer
+                                  format: int32
+                                  example: -1
+                    UC1:
+                      type: object
+                      properties:
+                        value:
+                          type: integer
+                          format: int32
+                          example: 0
+                        COLORTYPE:
+                          type: object
+                          properties:
+                            monochrome:
+                              type: object
+                              properties:
+                                description:
+                                  type: string
+                                  example: ""
+                                value:
+                                  type: integer
+                                  format: int32
+                                  example: -1
+                            color:
+                              type: object
+                              properties:
+                                value:
+                                  type: integer
+                                  format: int32
+                                  example: 0
+                                fullcolor:
+                                  type: object
+                                  properties:
+                                    description:
+                                      type: string
+                                      example: ""
+                                    value:
+                                      type: integer
+                                      format: int32
+                                      example: -1
+                                threecolor:
+                                  type: object
+                                  properties:
+                                    description:
+                                      type: string
+                                      example: ""
+                                    value:
+                                      type: integer
+                                      format: int32
+                                      example: -1
+                                twocolor:
+                                  type: object
+                                  properties:
+                                    description:
+                                      type: string
+                                      example: ""
+                                    value:
+                                      type: integer
+                                      format: int32
+                                      example: -1
+                                singlecolor:
+                                  type: object
+                                  properties:
+                                    description:
+                                      type: string
+                                      example: ""
+                                    value:
+                                      type: integer
+                                      format: int32
+                                      example: -1
+                filingData:
+                  type: object
+                  properties:
+                    value:
+                      type: integer
+                      format: int32
+                      example: 0
+                    UC0:
+                      type: object
+                      properties:
+                        value:
+                          type: integer
+                          format: int32
+                          example: 0
+                        COLORTYPE:
+                          type: object
+                          properties:
+                            monochrome:
+                              type: object
+                              properties:
+                                description:
+                                  type: string
+                                  example: ""
+                                value:
+                                  type: integer
+                                  format: int32
+                                  example: -1
+                            color:
+                              type: object
+                              properties:
+                                value:
+                                  type: integer
+                                  format: int32
+                                  example: 0
+                                fullcolor:
+                                  type: object
+                                  properties:
+                                    description:
+                                      type: string
+                                      example: ""
+                                    value:
+                                      type: integer
+                                      format: int32
+                                      example: -1
+                                twocolor:
+                                  type: object
+                                  properties:
+                                    description:
+                                      type: string
+                                      example: ""
+                                    value:
+                                      type: integer
+                                      format: int32
+                                      example: -1
+                                singlecolor:
+                                  type: object
+                                  properties:
+                                    description:
+                                      type: string
+                                      example: ""
+                                    value:
+                                      type: integer
+                                      format: int32
+                                      example: -1
+                    UC2:
+                      type: object
+                      properties:
+                        value:
+                          type: integer
+                          format: int32
+                          example: 0
+                        COLORTYPE:
+                          type: object
+                          properties:
+                            monochrome:
+                              type: object
+                              properties:
+                                description:
+                                  type: string
+                                  example: ""
+                                value:
+                                  type: integer
+                                  format: int32
+                                  example: -1
+                            color:
+                              type: object
+                              properties:
+                                value:
+                                  type: integer
+                                  format: int32
+                                  example: 0
+                                fullcolor:
+                                  type: object
+                                  properties:
+                                    description:
+                                      type: string
+                                      example: ""
+                                    value:
+                                      type: integer
+                                      format: int32
+                                      example: -1
+                                twocolor:
+                                  type: object
+                                  properties:
+                                    description:
+                                      type: string
+                                      example: ""
+                                    value:
+                                      type: integer
+                                      format: int32
+                                      example: -1
+                                singlecolor:
+                                  type: object
+                                  properties:
+                                    description:
+                                      type: string
+                                      example: ""
+                                    value:
+                                      type: integer
+                                      format: int32
+                                      example: -1
+                    UC3:
+                      type: object
+                      properties:
+                        value:
+                          type: integer
+                          format: int32
+                          example: 0
+                        COLORTYPE:
+                          type: object
+                          properties:
+                            monochrome:
+                              type: object
+                              properties:
+                                description:
+                                  type: string
+                                  example: ""
+                                value:
+                                  type: integer
+                                  format: int32
+                                  example: -1
+                            color:
+                              type: object
+                              properties:
+                                value:
+                                  type: integer
+                                  format: int32
+                                  example: 0
+                                fullcolor:
+                                  type: object
+                                  properties:
+                                    description:
+                                      type: string
+                                      example: ""
+                                    value:
+                                      type: integer
+                                      format: int32
+                                      example: -1
+                                twocolor:
+                                  type: object
+                                  properties:
+                                    description:
+                                      type: string
+                                      example: ""
+                                    value:
+                                      type: integer
+                                      format: int32
+                                      example: -1
+                                singlecolor:
+                                  type: object
+                                  properties:
+                                    description:
+                                      type: string
+                                      example: ""
+                                    value:
+                                      type: integer
+                                      format: int32
+                                      example: -1
+                    COLORTYPE:
+                      type: object
+                      properties:
+                        monochrome:
+                          type: object
+                          properties:
+                            value:
+                              type: integer
+                              format: int32
+                              example: -1
+                        color:
+                          type: object
+                          properties:
+                            value:
+                              type: integer
+                              format: int32
+                              example: 0
+                            fullcolor:
+                              type: object
+                              properties:
+                                value:
+                                  type: integer
+                                  format: int32
+                                  example: -1
+                            twocolor:
+                              type: object
+                              properties:
+                                value:
+                                  type: integer
+                                  format: int32
+                                  example: -1
+                            singlecolor:
+                              type: object
+                              properties:
+                                value:
+                                  type: integer
+                                  format: int32
+                                  example: -1
+                    UC1:
+                      type: object
+                      properties:
+                        value:
+                          type: integer
+                          format: int32
+                          example: 0
+                        COLORTYPE:
+                          type: object
+                          properties:
+                            monochrome:
+                              type: object
+                              properties:
+                                description:
+                                  type: string
+                                  example: ""
+                                value:
+                                  type: integer
+                                  format: int32
+                                  example: -1
+                            color:
+                              type: object
+                              properties:
+                                value:
+                                  type: integer
+                                  format: int32
+                                  example: 0
+                                fullcolor:
+                                  type: object
+                                  properties:
+                                    description:
+                                      type: string
+                                      example: ""
+                                    value:
+                                      type: integer
+                                      format: int32
+                                      example: -1
+                                twocolor:
+                                  type: object
+                                  properties:
+                                    description:
+                                      type: string
+                                      example: ""
+                                    value:
+                                      type: integer
+                                      format: int32
+                                      example: -1
+                                singlecolor:
+                                  type: object
+                                  properties:
+                                    description:
+                                      type: string
+                                      example: ""
+                                    value:
+                                      type: integer
+                                      format: int32
+                                      example: -1
+                copies:
+                  type: object
+                  properties:
+                    value:
+                      type: integer
+                      format: int32
+                      example: 0
+                    UC0:
+                      type: object
+                      properties:
+                        value:
+                          type: integer
+                          format: int32
+                          example: 0
+                        COLORTYPE:
+                          type: object
+                          properties:
+                            monochrome:
+                              type: object
+                              properties:
+                                description:
+                                  type: string
+                                  example: ""
+                                value:
+                                  type: integer
+                                  format: int32
+                                  example: -1
+                            color:
+                              type: object
+                              properties:
+                                value:
+                                  type: integer
+                                  format: int32
+                                  example: 0
+                                fullcolor:
+                                  type: object
+                                  properties:
+                                    description:
+                                      type: string
+                                      example: ""
+                                    value:
+                                      type: integer
+                                      format: int32
+                                      example: -1
+                                twocolor:
+                                  type: object
+                                  properties:
+                                    description:
+                                      type: string
+                                      example: ""
+                                    value:
+                                      type: integer
+                                      format: int32
+                                      example: -1
+                                singlecolor:
+                                  type: object
+                                  properties:
+                                    description:
+                                      type: string
+                                      example: ""
+                                    value:
+                                      type: integer
+                                      format: int32
+                                      example: -1
+                    UC2:
+                      type: object
+                      properties:
+                        value:
+                          type: integer
+                          format: int32
+                          example: 0
+                        COLORTYPE:
+                          type: object
+                          properties:
+                            monochrome:
+                              type: object
+                              properties:
+                                description:
+                                  type: string
+                                  example: ""
+                                value:
+                                  type: integer
+                                  format: int32
+                                  example: -1
+                            color:
+                              type: object
+                              properties:
+                                value:
+                                  type: integer
+                                  format: int32
+                                  example: 0
+                                fullcolor:
+                                  type: object
+                                  properties:
+                                    description:
+                                      type: string
+                                      example: ""
+                                    value:
+                                      type: integer
+                                      format: int32
+                                      example: -1
+                                twocolor:
+                                  type: object
+                                  properties:
+                                    description:
+                                      type: string
+                                      example: ""
+                                    value:
+                                      type: integer
+                                      format: int32
+                                      example: -1
+                                singlecolor:
+                                  type: object
+                                  properties:
+                                    description:
+                                      type: string
+                                      example: ""
+                                    value:
+                                      type: integer
+                                      format: int32
+                                      example: -1
+                    UC3:
+                      type: object
+                      properties:
+                        value:
+                          type: integer
+                          format: int32
+                          example: 0
+                        COLORTYPE:
+                          type: object
+                          properties:
+                            monochrome:
+                              type: object
+                              properties:
+                                description:
+                                  type: string
+                                  example: ""
+                                value:
+                                  type: integer
+                                  format: int32
+                                  example: -1
+                            color:
+                              type: object
+                              properties:
+                                value:
+                                  type: integer
+                                  format: int32
+                                  example: 0
+                                fullcolor:
+                                  type: object
+                                  properties:
+                                    description:
+                                      type: string
+                                      example: ""
+                                    value:
+                                      type: integer
+                                      format: int32
+                                      example: -1
+                                twocolor:
+                                  type: object
+                                  properties:
+                                    description:
+                                      type: string
+                                      example: ""
+                                    value:
+                                      type: integer
+                                      format: int32
+                                      example: -1
+                                singlecolor:
+                                  type: object
+                                  properties:
+                                    description:
+                                      type: string
+                                      example: ""
+                                    value:
+                                      type: integer
+                                      format: int32
+                                      example: -1
+                    COLORTYPE:
+                      type: object
+                      properties:
+                        monochrome:
+                          type: object
+                          properties:
+                            value:
+                              type: integer
+                              format: int32
+                              example: -1
+                        color:
+                          type: object
+                          properties:
+                            value:
+                              type: integer
+                              format: int32
+                              example: 0
+                            fullcolor:
+                              type: object
+                              properties:
+                                value:
+                                  type: integer
+                                  format: int32
+                                  example: -1
+                            twocolor:
+                              type: object
+                              properties:
+                                value:
+                                  type: integer
+                                  format: int32
+                                  example: -1
+                            singlecolor:
+                              type: object
+                              properties:
+                                value:
+                                  type: integer
+                                  format: int32
+                                  example: -1
+                    UC1:
+                      type: object
+                      properties:
+                        value:
+                          type: integer
+                          format: int32
+                          example: 0
+                        COLORTYPE:
+                          type: object
+                          properties:
+                            monochrome:
+                              type: object
+                              properties:
+                                description:
+                                  type: string
+                                  example: ""
+                                value:
+                                  type: integer
+                                  format: int32
+                                  example: -1
+                            color:
+                              type: object
+                              properties:
+                                value:
+                                  type: integer
+                                  format: int32
+                                  example: 0
+                                fullcolor:
+                                  type: object
+                                  properties:
+                                    description:
+                                      type: string
+                                      example: ""
+                                    value:
+                                      type: integer
+                                      format: int32
+                                      example: -1
+                                twocolor:
+                                  type: object
+                                  properties:
+                                    description:
+                                      type: string
+                                      example: ""
+                                    value:
+                                      type: integer
+                                      format: int32
+                                      example: -1
+                                singlecolor:
+                                  type: object
+                                  properties:
+                                    description:
+                                      type: string
+                                      example: ""
+                                    value:
+                                      type: integer
+                                      format: int32
+                                      example: -1
+            UC2:
+              type: object
+              properties:
+                value:
+                  type: integer
+                  format: int32
+                  example: 0
+                COLORTYPE:
+                  type: object
+                  properties:
+                    monochrome:
+                      type: object
+                      properties:
+                        value:
+                          type: integer
+                          format: int32
+                          example: 0
+                    color:
+                      type: object
+                      properties:
+                        value:
+                          type: integer
+                          format: int32
+                          example: 0
+                        fullcolor:
+                          type: object
+                          properties:
+                            value:
+                              type: integer
+                              format: int32
+                              example: 0
+                        threecolor:
+                          type: object
+                          properties:
+                            value:
+                              type: integer
+                              format: int32
+                              example: 0
+                        twocolor:
+                          type: object
+                          properties:
+                            value:
+                              type: integer
+                              format: int32
+                              example: 0
+                        singlecolor:
+                          type: object
+                          properties:
+                            value:
+                              type: integer
+                              format: int32
+                              example: 0
+            UC3:
+              type: object
+              properties:
+                value:
+                  type: integer
+                  format: int32
+                  example: 0
+                COLORTYPE:
+                  type: object
+                  properties:
+                    monochrome:
+                      type: object
+                      properties:
+                        value:
+                          type: integer
+                          format: int32
+                          example: 0
+                    color:
+                      type: object
+                      properties:
+                        value:
+                          type: integer
+                          format: int32
+                          example: 0
+                        fullcolor:
+                          type: object
+                          properties:
+                            value:
+                              type: integer
+                              format: int32
+                              example: 0
+                        threecolor:
+                          type: object
+                          properties:
+                            value:
+                              type: integer
+                              format: int32
+                              example: 0
+                        twocolor:
+                          type: object
+                          properties:
+                            value:
+                              type: integer
+                              format: int32
+                              example: 0
+                        singlecolor:
+                          type: object
+                          properties:
+                            value:
+                              type: integer
+                              format: int32
+                              example: 0
+            COLORTYPE:
+              type: object
+              properties:
+                monochrome:
+                  type: object
+                  properties:
+                    value:
+                      type: integer
+                      format: int32
+                      example: 0
+                color:
+                  type: object
+                  properties:
+                    value:
+                      type: integer
+                      format: int32
+                      example: 0
+                    fullcolor:
+                      type: object
+                      properties:
+                        value:
+                          type: integer
+                          format: int32
+                          example: 0
+                    threecolor:
+                      type: object
+                      properties:
+                        value:
+                          type: integer
+                          format: int32
+                          example: 0
+                    twocolor:
+                      type: object
+                      properties:
+                        value:
+                          type: integer
+                          format: int32
+                          example: 0
+                    singlecolor:
+                      type: object
+                      properties:
+                        value:
+                          type: integer
+                          format: int32
+                          example: 0
+            UC1:
+              type: object
+              properties:
+                value:
+                  type: integer
+                  format: int32
+                  example: 0
+                COLORTYPE:
+                  type: object
+                  properties:
+                    monochrome:
+                      type: object
+                      properties:
+                        value:
+                          type: integer
+                          format: int32
+                          example: 0
+                    color:
+                      type: object
+                      properties:
+                        value:
+                          type: integer
+                          format: int32
+                          example: 0
+                        fullcolor:
+                          type: object
+                          properties:
+                            value:
+                              type: integer
+                              format: int32
+                              example: 0
+                        threecolor:
+                          type: object
+                          properties:
+                            value:
+                              type: integer
+                              format: int32
+                              example: 0
+                        twocolor:
+                          type: object
+                          properties:
+                            value:
+                              type: integer
+                              format: int32
+                              example: 0
+                        singlecolor:
+                          type: object
+                          properties:
+                            value:
+                              type: integer
+                              format: int32
+                              example: 0
+    Detail:
+      type: object
+      properties:
+        output:
+          type: object
+          properties:
+            JOBTYPE:
+              type: object
+              properties:
+                internetFax:
+                  type: object
+                  properties:
+                    value:
+                      type: integer
+                      format: int32
+                      example: 0
+                    COLORTYPE:
+                      type: object
+                      properties:
+                        monochrome:
+                          type: object
+                          properties:
+                            value:
+                              type: integer
+                              format: int32
+                              example: -1
+                others:
+                  type: object
+                  properties:
+                    value:
+                      type: integer
+                      format: int32
+                      example: 27
+                    UC0:
+                      type: object
+                      properties:
+                        value:
+                          type: integer
+                          format: int32
+                          example: 0
+                        COLORTYPE:
+                          type: object
+                          properties:
+                            monochrome:
+                              type: object
+                              properties:
+                                description:
+                                  type: string
+                                  example: ""
+                                value:
+                                  type: integer
+                                  format: int32
+                                  example: -1
+                            color:
+                              type: object
+                              properties:
+                                value:
+                                  type: integer
+                                  format: int32
+                                  example: 0
+                                fullcolor:
+                                  type: object
+                                  properties:
+                                    description:
+                                      type: string
+                                      example: ""
+                                    value:
+                                      type: integer
+                                      format: int32
+                                      example: -1
+                    COLORTYPE:
+                      type: object
+                      properties:
+                        monochrome:
+                          type: object
+                          properties:
+                            value:
+                              type: integer
+                              format: int32
+                              example: 27
+                        color:
+                          type: object
+                          properties:
+                            value:
+                              type: integer
+                              format: int32
+                              example: 0
+                            fullcolor:
+                              type: object
+                              properties:
+                                value:
+                                  type: integer
+                                  format: int32
+                                  example: 0
+                fax:
+                  type: object
+                  properties:
+                    value:
+                      type: integer
+                      format: int32
+                      example: 0
+                    fax2:
+                      type: object
+                      properties:
+                        value:
+                          type: integer
+                          format: int32
+                          example: 0
+                        COLORTYPE:
+                          type: object
+                          properties:
+                            monochrome:
+                              type: object
+                              properties:
+                                value:
+                                  type: integer
+                                  format: int32
+                                  example: -1
+                    fax3:
+                      type: object
+                      properties:
+                        value:
+                          type: integer
+                          format: int32
+                          example: 0
+                        COLORTYPE:
+                          type: object
+                          properties:
+                            monochrome:
+                              type: object
+                              properties:
+                                value:
+                                  type: integer
+                                  format: int32
+                                  example: -1
+                    fax1:
+                      type: object
+                      properties:
+                        value:
+                          type: integer
+                          format: int32
+                          example: 0
+                        COLORTYPE:
+                          type: object
+                          properties:
+                            monochrome:
+                              type: object
+                              properties:
+                                value:
+                                  type: integer
+                                  format: int32
+                                  example: -1
+                    COLORTYPE:
+                      type: object
+                      properties:
+                        monochrome:
+                          type: object
+                          properties:
+                            value:
+                              type: integer
+                              format: int32
+                              example: 0
+                prints:
+                  type: object
+                  properties:
+                    value:
+                      type: integer
+                      format: int32
+                      example: 1999
+                    UC0:
+                      type: object
+                      properties:
+                        value:
+                          type: integer
+                          format: int32
+                          example: 0
+                        COLORTYPE:
+                          type: object
+                          properties:
+                            monochrome:
+                              type: object
+                              properties:
+                                description:
+                                  type: string
+                                  example: ""
+                                value:
+                                  type: integer
+                                  format: int32
+                                  example: -1
+                            color:
+                              type: object
+                              properties:
+                                value:
+                                  type: integer
+                                  format: int32
+                                  example: 0
+                                fullcolor:
+                                  type: object
+                                  properties:
+                                    description:
+                                      type: string
+                                      example: ""
+                                    value:
+                                      type: integer
+                                      format: int32
+                                      example: -1
+                                threecolor:
+                                  type: object
+                                  properties:
+                                    description:
+                                      type: string
+                                      example: ""
+                                    value:
+                                      type: integer
+                                      format: int32
+                                      example: -1
+                                twocolor:
+                                  type: object
+                                  properties:
+                                    description:
+                                      type: string
+                                      example: ""
+                                    value:
+                                      type: integer
+                                      format: int32
+                                      example: -1
+                                singlecolor:
+                                  type: object
+                                  properties:
+                                    description:
+                                      type: string
+                                      example: ""
+                                    value:
+                                      type: integer
+                                      format: int32
+                                      example: -1
+                    UC2:
+                      type: object
+                      properties:
+                        value:
+                          type: integer
+                          format: int32
+                          example: 0
+                        COLORTYPE:
+                          type: object
+                          properties:
+                            monochrome:
+                              type: object
+                              properties:
+                                description:
+                                  type: string
+                                  example: ""
+                                value:
+                                  type: integer
+                                  format: int32
+                                  example: -1
+                            color:
+                              type: object
+                              properties:
+                                value:
+                                  type: integer
+                                  format: int32
+                                  example: 0
+                                fullcolor:
+                                  type: object
+                                  properties:
+                                    description:
+                                      type: string
+                                      example: ""
+                                    value:
+                                      type: integer
+                                      format: int32
+                                      example: -1
+                                threecolor:
+                                  type: object
+                                  properties:
+                                    description:
+                                      type: string
+                                      example: ""
+                                    value:
+                                      type: integer
+                                      format: int32
+                                      example: -1
+                                twocolor:
+                                  type: object
+                                  properties:
+                                    description:
+                                      type: string
+                                      example: ""
+                                    value:
+                                      type: integer
+                                      format: int32
+                                      example: -1
+                                singlecolor:
+                                  type: object
+                                  properties:
+                                    description:
+                                      type: string
+                                      example: ""
+                                    value:
+                                      type: integer
+                                      format: int32
+                                      example: -1
+                    UC3:
+                      type: object
+                      properties:
+                        value:
+                          type: integer
+                          format: int32
+                          example: 0
+                        COLORTYPE:
+                          type: object
+                          properties:
+                            monochrome:
+                              type: object
+                              properties:
+                                description:
+                                  type: string
+                                  example: ""
+                                value:
+                                  type: integer
+                                  format: int32
+                                  example: -1
+                            color:
+                              type: object
+                              properties:
+                                value:
+                                  type: integer
+                                  format: int32
+                                  example: 0
+                                fullcolor:
+                                  type: object
+                                  properties:
+                                    description:
+                                      type: string
+                                      example: ""
+                                    value:
+                                      type: integer
+                                      format: int32
+                                      example: -1
+                                threecolor:
+                                  type: object
+                                  properties:
+                                    description:
+                                      type: string
+                                      example: ""
+                                    value:
+                                      type: integer
+                                      format: int32
+                                      example: -1
+                                twocolor:
+                                  type: object
+                                  properties:
+                                    description:
+                                      type: string
+                                      example: ""
+                                    value:
+                                      type: integer
+                                      format: int32
+                                      example: -1
+                                singlecolor:
+                                  type: object
+                                  properties:
+                                    description:
+                                      type: string
+                                      example: ""
+                                    value:
+                                      type: integer
+                                      format: int32
+                                      example: -1
+                    COLORTYPE:
+                      type: object
+                      properties:
+                        monochrome:
+                          type: object
+                          properties:
+                            value:
+                              type: integer
+                              format: int32
+                              example: 298
+                        color:
+                          type: object
+                          properties:
+                            value:
+                              type: integer
+                              format: int32
+                              example: 1701
+                            fullcolor:
+                              type: object
+                              properties:
+                                value:
+                                  type: integer
+                                  format: int32
+                                  example: 1701
+                            threecolor:
+                              type: object
+                              properties:
+                                value:
+                                  type: integer
+                                  format: int32
+                                  example: -1
+                            twocolor:
+                              type: object
+                              properties:
+                                value:
+                                  type: integer
+                                  format: int32
+                                  example: -1
+                            singlecolor:
+                              type: object
+                              properties:
+                                value:
+                                  type: integer
+                                  format: int32
+                                  example: -1
+                    UC1:
+                      type: object
+                      properties:
+                        value:
+                          type: integer
+                          format: int32
+                          example: 0
+                        COLORTYPE:
+                          type: object
+                          properties:
+                            monochrome:
+                              type: object
+                              properties:
+                                description:
+                                  type: string
+                                  example: ""
+                                value:
+                                  type: integer
+                                  format: int32
+                                  example: -1
+                            color:
+                              type: object
+                              properties:
+                                value:
+                                  type: integer
+                                  format: int32
+                                  example: 0
+                                fullcolor:
+                                  type: object
+                                  properties:
+                                    description:
+                                      type: string
+                                      example: ""
+                                    value:
+                                      type: integer
+                                      format: int32
+                                      example: -1
+                                threecolor:
+                                  type: object
+                                  properties:
+                                    description:
+                                      type: string
+                                      example: ""
+                                    value:
+                                      type: integer
+                                      format: int32
+                                      example: -1
+                                twocolor:
+                                  type: object
+                                  properties:
+                                    description:
+                                      type: string
+                                      example: ""
+                                    value:
+                                      type: integer
+                                      format: int32
+                                      example: -1
+                                singlecolor:
+                                  type: object
+                                  properties:
+                                    description:
+                                      type: string
+                                      example: ""
+                                    value:
+                                      type: integer
+                                      format: int32
+                                      example: -1
+                filingData:
+                  type: object
+                  properties:
+                    value:
+                      type: integer
+                      format: int32
+                      example: 0
+                    UC0:
+                      type: object
+                      properties:
+                        value:
+                          type: integer
+                          format: int32
+                          example: 0
+                        COLORTYPE:
+                          type: object
+                          properties:
+                            monochrome:
+                              type: object
+                              properties:
+                                description:
+                                  type: string
+                                  example: ""
+                                value:
+                                  type: integer
+                                  format: int32
+                                  example: -1
+                            color:
+                              type: object
+                              properties:
+                                value:
+                                  type: integer
+                                  format: int32
+                                  example: 0
+                                fullcolor:
+                                  type: object
+                                  properties:
+                                    description:
+                                      type: string
+                                      example: ""
+                                    value:
+                                      type: integer
+                                      format: int32
+                                      example: -1
+                                twocolor:
+                                  type: object
+                                  properties:
+                                    description:
+                                      type: string
+                                      example: ""
+                                    value:
+                                      type: integer
+                                      format: int32
+                                      example: -1
+                                singlecolor:
+                                  type: object
+                                  properties:
+                                    description:
+                                      type: string
+                                      example: ""
+                                    value:
+                                      type: integer
+                                      format: int32
+                                      example: -1
+                    UC2:
+                      type: object
+                      properties:
+                        value:
+                          type: integer
+                          format: int32
+                          example: 0
+                        COLORTYPE:
+                          type: object
+                          properties:
+                            monochrome:
+                              type: object
+                              properties:
+                                description:
+                                  type: string
+                                  example: ""
+                                value:
+                                  type: integer
+                                  format: int32
+                                  example: -1
+                            color:
+                              type: object
+                              properties:
+                                value:
+                                  type: integer
+                                  format: int32
+                                  example: 0
+                                fullcolor:
+                                  type: object
+                                  properties:
+                                    description:
+                                      type: string
+                                      example: ""
+                                    value:
+                                      type: integer
+                                      format: int32
+                                      example: -1
+                                twocolor:
+                                  type: object
+                                  properties:
+                                    description:
+                                      type: string
+                                      example: ""
+                                    value:
+                                      type: integer
+                                      format: int32
+                                      example: -1
+                                singlecolor:
+                                  type: object
+                                  properties:
+                                    description:
+                                      type: string
+                                      example: ""
+                                    value:
+                                      type: integer
+                                      format: int32
+                                      example: -1
+                    UC3:
+                      type: object
+                      properties:
+                        value:
+                          type: integer
+                          format: int32
+                          example: 0
+                        COLORTYPE:
+                          type: object
+                          properties:
+                            monochrome:
+                              type: object
+                              properties:
+                                description:
+                                  type: string
+                                  example: ""
+                                value:
+                                  type: integer
+                                  format: int32
+                                  example: -1
+                            color:
+                              type: object
+                              properties:
+                                value:
+                                  type: integer
+                                  format: int32
+                                  example: 0
+                                fullcolor:
+                                  type: object
+                                  properties:
+                                    description:
+                                      type: string
+                                      example: ""
+                                    value:
+                                      type: integer
+                                      format: int32
+                                      example: -1
+                                twocolor:
+                                  type: object
+                                  properties:
+                                    description:
+                                      type: string
+                                      example: ""
+                                    value:
+                                      type: integer
+                                      format: int32
+                                      example: -1
+                                singlecolor:
+                                  type: object
+                                  properties:
+                                    description:
+                                      type: string
+                                      example: ""
+                                    value:
+                                      type: integer
+                                      format: int32
+                                      example: -1
+                    COLORTYPE:
+                      type: object
+                      properties:
+                        monochrome:
+                          type: object
+                          properties:
+                            value:
+                              type: integer
+                              format: int32
+                              example: 0
+                        color:
+                          type: object
+                          properties:
+                            value:
+                              type: integer
+                              format: int32
+                              example: 0
+                            fullcolor:
+                              type: object
+                              properties:
+                                value:
+                                  type: integer
+                                  format: int32
+                                  example: 0
+                            twocolor:
+                              type: object
+                              properties:
+                                value:
+                                  type: integer
+                                  format: int32
+                                  example: 0
+                            singlecolor:
+                              type: object
+                              properties:
+                                value:
+                                  type: integer
+                                  format: int32
+                                  example: 0
+                    UC1:
+                      type: object
+                      properties:
+                        value:
+                          type: integer
+                          format: int32
+                          example: 0
+                        COLORTYPE:
+                          type: object
+                          properties:
+                            monochrome:
+                              type: object
+                              properties:
+                                description:
+                                  type: string
+                                  example: ""
+                                value:
+                                  type: integer
+                                  format: int32
+                                  example: -1
+                            color:
+                              type: object
+                              properties:
+                                value:
+                                  type: integer
+                                  format: int32
+                                  example: 0
+                                fullcolor:
+                                  type: object
+                                  properties:
+                                    description:
+                                      type: string
+                                      example: ""
+                                    value:
+                                      type: integer
+                                      format: int32
+                                      example: -1
+                                twocolor:
+                                  type: object
+                                  properties:
+                                    description:
+                                      type: string
+                                      example: ""
+                                    value:
+                                      type: integer
+                                      format: int32
+                                      example: -1
+                                singlecolor:
+                                  type: object
+                                  properties:
+                                    description:
+                                      type: string
+                                      example: ""
+                                    value:
+                                      type: integer
+                                      format: int32
+                                      example: -1
+                copies:
+                  type: object
+                  properties:
+                    value:
+                      type: integer
+                      format: int32
+                      example: 3042
+                    UC0:
+                      type: object
+                      properties:
+                        value:
+                          type: integer
+                          format: int32
+                          example: 0
+                        COLORTYPE:
+                          type: object
+                          properties:
+                            monochrome:
+                              type: object
+                              properties:
+                                description:
+                                  type: string
+                                  example: ""
+                                value:
+                                  type: integer
+                                  format: int32
+                                  example: -1
+                            color:
+                              type: object
+                              properties:
+                                value:
+                                  type: integer
+                                  format: int32
+                                  example: 0
+                                fullcolor:
+                                  type: object
+                                  properties:
+                                    description:
+                                      type: string
+                                      example: ""
+                                    value:
+                                      type: integer
+                                      format: int32
+                                      example: -1
+                                twocolor:
+                                  type: object
+                                  properties:
+                                    description:
+                                      type: string
+                                      example: ""
+                                    value:
+                                      type: integer
+                                      format: int32
+                                      example: -1
+                                singlecolor:
+                                  type: object
+                                  properties:
+                                    description:
+                                      type: string
+                                      example: ""
+                                    value:
+                                      type: integer
+                                      format: int32
+                                      example: -1
+                    UC2:
+                      type: object
+                      properties:
+                        value:
+                          type: integer
+                          format: int32
+                          example: 0
+                        COLORTYPE:
+                          type: object
+                          properties:
+                            monochrome:
+                              type: object
+                              properties:
+                                description:
+                                  type: string
+                                  example: ""
+                                value:
+                                  type: integer
+                                  format: int32
+                                  example: -1
+                            color:
+                              type: object
+                              properties:
+                                value:
+                                  type: integer
+                                  format: int32
+                                  example: 0
+                                fullcolor:
+                                  type: object
+                                  properties:
+                                    description:
+                                      type: string
+                                      example: ""
+                                    value:
+                                      type: integer
+                                      format: int32
+                                      example: -1
+                                twocolor:
+                                  type: object
+                                  properties:
+                                    description:
+                                      type: string
+                                      example: ""
+                                    value:
+                                      type: integer
+                                      format: int32
+                                      example: -1
+                                singlecolor:
+                                  type: object
+                                  properties:
+                                    description:
+                                      type: string
+                                      example: ""
+                                    value:
+                                      type: integer
+                                      format: int32
+                                      example: -1
+                    UC3:
+                      type: object
+                      properties:
+                        value:
+                          type: integer
+                          format: int32
+                          example: 0
+                        COLORTYPE:
+                          type: object
+                          properties:
+                            monochrome:
+                              type: object
+                              properties:
+                                description:
+                                  type: string
+                                  example: ""
+                                value:
+                                  type: integer
+                                  format: int32
+                                  example: -1
+                            color:
+                              type: object
+                              properties:
+                                value:
+                                  type: integer
+                                  format: int32
+                                  example: 0
+                                fullcolor:
+                                  type: object
+                                  properties:
+                                    description:
+                                      type: string
+                                      example: ""
+                                    value:
+                                      type: integer
+                                      format: int32
+                                      example: -1
+                                twocolor:
+                                  type: object
+                                  properties:
+                                    description:
+                                      type: string
+                                      example: ""
+                                    value:
+                                      type: integer
+                                      format: int32
+                                      example: -1
+                                singlecolor:
+                                  type: object
+                                  properties:
+                                    description:
+                                      type: string
+                                      example: ""
+                                    value:
+                                      type: integer
+                                      format: int32
+                                      example: -1
+                    COLORTYPE:
+                      type: object
+                      properties:
+                        monochrome:
+                          type: object
+                          properties:
+                            value:
+                              type: integer
+                              format: int32
+                              example: 277
+                        color:
+                          type: object
+                          properties:
+                            value:
+                              type: integer
+                              format: int32
+                              example: 2765
+                            fullcolor:
+                              type: object
+                              properties:
+                                value:
+                                  type: integer
+                                  format: int32
+                                  example: 2765
+                            twocolor:
+                              type: object
+                              properties:
+                                value:
+                                  type: integer
+                                  format: int32
+                                  example: 0
+                            singlecolor:
+                              type: object
+                              properties:
+                                value:
+                                  type: integer
+                                  format: int32
+                                  example: 0
+                    UC1:
+                      type: object
+                      properties:
+                        value:
+                          type: integer
+                          format: int32
+                          example: 0
+                        COLORTYPE:
+                          type: object
+                          properties:
+                            monochrome:
+                              type: object
+                              properties:
+                                description:
+                                  type: string
+                                  example: ""
+                                value:
+                                  type: integer
+                                  format: int32
+                                  example: -1
+                            color:
+                              type: object
+                              properties:
+                                value:
+                                  type: integer
+                                  format: int32
+                                  example: 0
+                                fullcolor:
+                                  type: object
+                                  properties:
+                                    description:
+                                      type: string
+                                      example: ""
+                                    value:
+                                      type: integer
+                                      format: int32
+                                      example: -1
+                                twocolor:
+                                  type: object
+                                  properties:
+                                    description:
+                                      type: string
+                                      example: ""
+                                    value:
+                                      type: integer
+                                      format: int32
+                                      example: -1
+                                singlecolor:
+                                  type: object
+                                  properties:
+                                    description:
+                                      type: string
+                                      example: ""
+                                    value:
+                                      type: integer
+                                      format: int32
+                                      example: -1
+        send:
+          type: object
+          properties:
+            JOBTYPE:
+              type: object
+              properties:
+                scanToHDD:
+                  type: object
+                  properties:
+                    value:
+                      type: integer
+                      format: int32
+                      example: 0
+                    COLORTYPE:
+                      type: object
+                      properties:
+                        monochrome:
+                          type: object
+                          properties:
+                            value:
+                              type: integer
+                              format: int32
+                              example: 0
+                        color:
+                          type: object
+                          properties:
+                            value:
+                              type: integer
+                              format: int32
+                              example: 0
+                            fullcolor:
+                              type: object
+                              properties:
+                                value:
+                                  type: integer
+                                  format: int32
+                                  example: 0
+                            twocolor:
+                              type: object
+                              properties:
+                                value:
+                                  type: integer
+                                  format: int32
+                                  example: 0
+                internetFaxSend:
+                  type: object
+                  properties:
+                    value:
+                      type: integer
+                      format: int32
+                      example: 0
+                    COLORTYPE:
+                      type: object
+                      properties:
+                        monochrome:
+                          type: object
+                          properties:
+                            value:
+                              type: integer
+                              format: int32
+                              example: -1
+                faxSend:
+                  type: object
+                  properties:
+                    value:
+                      type: integer
+                      format: int32
+                      example: 0
+                    fax2Send:
+                      type: object
+                      properties:
+                        value:
+                          type: integer
+                          format: int32
+                          example: 0
+                        COLORTYPE:
+                          type: object
+                          properties:
+                            monochrome:
+                              type: object
+                              properties:
+                                value:
+                                  type: integer
+                                  format: int32
+                                  example: -1
+                    fax1Send:
+                      type: object
+                      properties:
+                        value:
+                          type: integer
+                          format: int32
+                          example: 0
+                        COLORTYPE:
+                          type: object
+                          properties:
+                            monochrome:
+                              type: object
+                              properties:
+                                value:
+                                  type: integer
+                                  format: int32
+                                  example: -1
+                    fax3Send:
+                      type: object
+                      properties:
+                        value:
+                          type: integer
+                          format: int32
+                          example: 0
+                        COLORTYPE:
+                          type: object
+                          properties:
+                            monochrome:
+                              type: object
+                              properties:
+                                value:
+                                  type: integer
+                                  format: int32
+                                  example: -1
+                    COLORTYPE:
+                      type: object
+                      properties:
+                        monochrome:
+                          type: object
+                          properties:
+                            value:
+                              type: integer
+                              format: int32
+                              example: 0
+                scanToEmail:
+                  type: object
+                  properties:
+                    value:
+                      type: integer
+                      format: int32
+                      example: 155
+                    COLORTYPE:
+                      type: object
+                      properties:
+                        monochrome:
+                          type: object
+                          properties:
+                            value:
+                              type: integer
+                              format: int32
+                              example: 119
+                        color:
+                          type: object
+                          properties:
+                            value:
+                              type: integer
+                              format: int32
+                              example: 36
+                            fullcolor:
+                              type: object
+                              properties:
+                                value:
+                                  type: integer
+                                  format: int32
+                                  example: 36
+    A3OrAbove:
+      type: object
+    Total:
+      type: object
+    Feeder:
+      type: object
+    Duplex:
+      type: object
+    PowerOnCount:
+      type: object
+    LifeCount:
+      type: object
